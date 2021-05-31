@@ -7,7 +7,7 @@ package segmenter
 #include "c/segmenter.h"
 #include "c/util.h"
 
-#cgo LDFLAGS: -L${SRCDIR}/../build -lsegmenter -lavcodec -lavformat -lavutil
+#cgo LDFLAGS: -L${SRCDIR}/../build -lavcodec -lavformat -lavutil
 */
 import "C"
 
